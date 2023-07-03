@@ -1,0 +1,114 @@
+
+:root {
+    --link-color: #2196f3;
+    --text-font-family: "Roboto", sans-serif;
+    --heading-font-family: "Roboto", sans-serif;
+  }
+  .logo-web {
+    color: #2196f3;
+    font-size: 26px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+  h1,
+  h3,
+  h5,
+  h6 {
+    font-weight: 700;
+    font-family: var(--heading-font-family);
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  .button {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--text-font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875em;
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  
+  .main-navigation {
+    background: #fff;
+    color: #212121;
+    font-size: 14px;
+    font-family: var(--text-font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+  
+  .hero-section {
+    background: #2f303a;
+    width: 1600px;
+    height: 600px;
+  }
+  .hero-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 44px;
+    font-family: var(--heading-font-family);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 3.75em;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+  }
+  
+  .global-header .main-navigation a.active {
+    color: var(--link-color);
+  }
+  
+  .points-title {
+    color: #212121;
+    font-size: 14px;
+    font-family: var(--heading-font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .points-describe {
+    color: #757575;
+    font-size: 14px;
+    font-family: var(--text-font-family);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.42px;
+  }
+  
+  .phone-number {
+    color: #757575;
+    font-size: 14px;
+    font-family: var(--text-font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+  .info-team .info-company {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-family: var(--heading-font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+  }
+
+
